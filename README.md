@@ -31,7 +31,7 @@ Resized images locate in `./data/images/`
 - Commit and push your annotated images and xml files (`./data/images/train` and `./data/images/test`) to your forked repository.
 
 
-### Step 2: Open [Colab notebook](https://colab.research.google.com/github/Tony607/object_detection_demo/blob/master/tensorflow_object_detection_training_colab.ipynb)
+### Step 2: Open [Colab notebook](https://colab.research.google.com/github/project2you/object_detection_tensorflow1_14/blob/master/1_tensorflow_object_detection_training_colab_Update_2565_05_07.ipynb)
 - Replace the repository's url to yours and run it.
 
 
