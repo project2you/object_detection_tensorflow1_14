@@ -1,5 +1,28 @@
 # [How to train an object detection model with tensorflow 1.14]
 
+
+# 1.ติดตั้ง Docker
+sudo apt update && sudo apt -y upgrade
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+docker --version
+
+sudo groupadd docker
+
+sudo usermod -aG docker $USER
+
+
+
+
+## 2. ติดตั้ง Data Annotation
+
+Label Studio 1:
+ sudo docker run --restart=always -d -it -p 8080:8080 -v `pwd`/mydata:/label-studio/data heartexlabs/label-studio:latest
+
+
 ## How to Run
 
 Easy way: run [this Colab Notebook](https://colab.research.google.com/github/Tony607/object_detection_demo/blob/master/tensorflow_object_detection_training_colab.ipynb).
